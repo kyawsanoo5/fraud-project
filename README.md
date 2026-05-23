@@ -167,6 +167,7 @@ y_pred = loaded_model.predict(X_test)
 * `images/`:** Contains charts, graph using Readme.md
 
 ## 🏃 **How to Run**
+pip install -r requirements.txt
 1. Clone the repository: `git clone <repo-link>`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Execute the notebook or run prediction script: `python predict.py`
