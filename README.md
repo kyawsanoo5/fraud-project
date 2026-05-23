@@ -45,7 +45,7 @@ Fraudulent transactions cause financial losses and customer distrust. Fraud case
 - **'0'** denotes legitimate transactions		**284315 ⤬ 31**
 - **'1'** represents fraudulent transactions	      **492 ⤬ 31** imbalance ratio
 - **Records:** 284807 ⤬ 31
-- **Features:** Time, V1, V2, to V 28, Amount, Clas 
+- **Features:** Time, V1, V2, to V 28, Amount, Class 
 
 ## 🛠️ **Technical Workflow & Methodology**
 1. **Exploratory Data Analysis (EDA):** Identified strong analytical signals from latent features (`V1` to `V28` derived via PCA) to establish precise decision boundaries.
@@ -109,7 +109,7 @@ Banks can strengthen designed as a foundation for future real-time fraud monitor
 - **ROC-AUC Score: 0.97** — Strong ability to distinguish fraud from legitimate transactions.
 - **Fraud Recall: 91%** — Successfully captures most fraudulent transactions.
 - **Precision: 95%** — Maintains very low false-alarm rates.
-- **Accuracy: 95.4%** — Stable performance across unseen test data.
+- **Test Accuracy: 95.4%** — Stable performance across unseen test data.
 
 ### **Preprocessing**
 Applied SMOTE to balance minority fraud cases before training the Logistic Regression model.
