@@ -1,0 +1,11 @@
+pip install -r requirements.txt
+
+numpy==2.4.2
+pandas==2.3.3
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+jupyter==7.3.2
+joblib==1.5.2
+Python version: 3.13.5 
