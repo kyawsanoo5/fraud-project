@@ -183,5 +183,5 @@ pip install -r requirements.txt
 - Drift monitoring
 
 ## **Author - Kyawsanoo5**
-This project develops an end-to-end fraud detection pipeline for highly imbalanced transaction data. Using SMOTE and Logistic Regression, the model achieves strong fraud recall while maintaining low false-positive rates.
+This project develops an end-to-end fraud detection for highly imbalanced transaction data. Using SMOTE and Logistic Regression, the model achieves strong fraud recall while maintaining low false-positive rates.
 - **LinkedIn**: [Connect with me professionally](www.linkedin.com/in/kyaw-sanoo-425009396)
