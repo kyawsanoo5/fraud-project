@@ -24,7 +24,7 @@ This repository contains a machine learning project aimed at addressing the issu
 13. Future Improvements
 14. Author
 
-## **Add Architecture Diagram**
+## **Architecture Diagram**
 **Raw Data -> EDA -> SMOTE -> Train/Test Split -> Logistic Regression -> Evaluation -> Serialization**
 
 ## **Introduction**
@@ -36,8 +36,8 @@ This project builds a machine learning pipeline to detect fraudulent credit card
 ## 💼 **Business Problem & Data Challenge**
 Fraudulent transactions cause financial losses and customer distrust. Fraud cases are extremely rare (0.17%), making detection highly challenging.
 **Goal:** maximize fraud detection while minimizing false alarms.
-- **Fraud Mitigation Rate (93%):** Out of all fraudulent attempts, the model successfully intercepts 93%, saving the business from substantial direct financial losses.
-- **Minimal False Alarms (3%):** Ensures that 97% of legitimate users experience _zero friction or wrongful declines_ during transaction processing.
+- **Fraud Mitigation Rate (91%):** Out of all fraudulent attempts, the model successfully intercepts 91%, saving the business from substantial direct financial losses.
+- **High Precision (95%):** helps reduce unnecessary fraud alerts for legitimate customers.
 - **High Decision Robustness (0.97 AUC):** Demonstrates near-perfect diagnostic capability, allowing _risk-management teams_ to automate the fraud filter with maximum confidence.
 
 ## **Dataset Overview**
@@ -70,7 +70,7 @@ data['Class'].value_counts()
 **2. Transaction Amount Distribution**		
 ```python 
 legit.Amount.describe()
- fraud.Amount.desribe()
+ fraud.Amount.describe()
 ```	
  
 ![Legit-Fraud_meanAmount](./images/Legit-Fraud_meanAmount.png) 
@@ -101,14 +101,14 @@ Among hundreds of thousands of legitimate purchases, only a tiny fraction are fr
 Without proper balancing techniques, a machine learning model may simply learn to classify almost everything as legitimate.
 
 ### **Business Impact**
-Banks can strengthen real-time fraud monitoring during high-risk transaction windows to reduce financial losses.
+Banks can strengthen designed as a foundation for future real-time fraud monitoring systems during high-risk transaction windows to reduce financial losses. 
 
 ## 📊 **Model Performance & Evaluation**
 
 ### **Key Metrics**
 - **ROC-AUC Score: 0.97** — Strong ability to distinguish fraud from legitimate transactions.
-- **Fraud Recall: 93%** — Successfully captures most fraudulent transactions.
-- **Precision: 98%** — Maintains very low false-alarm rates.
+- **Fraud Recall: 91%** — Successfully captures most fraudulent transactions.
+- **Precision: 95%** — Maintains very low false-alarm rates.
 - **Accuracy: 95.4%** — Stable performance across unseen test data.
 
 ### **Preprocessing**
